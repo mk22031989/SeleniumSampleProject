@@ -28,6 +28,7 @@ public class Login {
 
     public void LoginPage(String userName, String password)
     {
+    	//click on wipro login button
         btnWiproLtd.click();
         txtUserName.sendKeys(userName);
         txtPassword.sendKeys(password);
