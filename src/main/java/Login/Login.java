@@ -8,8 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class Login {
-	
 	public Login(WebDriver driver) {
+
         PageFactory.initElements(driver, this);
     }
 	
@@ -26,16 +26,75 @@ public class Login {
     public WebElement btnLogin;
     
 
-    public void LoginPage(String userName, String password)
+    public void LoginPage(WebDriver driver,String userName, String password)
     {
-    	//click on wipro login button
-        btnWiproLtd.click();
-        txtUserName.sendKeys(userName);
-        txtPassword.sendKeys(password);
+         try {
+         	//click on wipro login button
+              btnWiproLtd.click();
+              
+              //using javascript Executor
+              KeyboardActions _kactions = new KeyboardActions();
+              _kactions.InsertTextJavaScript(driver, txtUserName, userName);
+              _kactions.InsertTextJavaScript(driver, txtPassword, password);
+              
+              
+              //using actions to send text
+               //KeyboardActions _kactions = new KeyboardActions();
+              //_kactions.InsertTextActions(driver, txtUserName, userName);
+              //_kactions.InsertTextActions(driver, txtPassword, password);
+              
+            //Using Robot Class sending text 
+            //KeyboardActions _kactions = new KeyboardActions();
+			//_kactions.SendKeysClipboard(userName);
+			//Thread.sleep(5000);
+			//_kactions.SendTabKey();
+		   // _kactions.SendKeysClipboard(password);
+		    
+		    //Normal way of sending text 
+		     //txtUserName.sendKeys(userName);
+		     // txtPassword.sendKeys(password);
+		} catch (Exception ex) {
+			// TODO Auto-generated catch block
+			ex.printStackTrace();
+		}
+       
+    }
+    
+    public void LoginUsingKeboardActions(String username, String Password)
+    {
+    	KeyboardActions _kactions = new KeyboardActions();
+    	
+    	
+    	try {
+    		_kactions.SendTabKey();
+    		Thread.sleep(5000);
+
+
+    		_kactions.EnterClikKeyboard();
+    		_kactions.SendKeysClipboard(username);
+        	_kactions.SendTabKey();
+        	_kactions.SendKeysClipboard(Password);
+        	_kactions.SendTabKey();
+        	_kactions.EnterClikKeyboard();
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    	
     }
 
+    public void SelectBootStrapDD(WebDriver driver, String id, String text)
+    {
+    	
+    	KeyboardActions _kactions = new KeyboardActions();
+    	_kactions.SelectBootStrapDD(driver, id, text);
+    }
+    
     public void ClickLogin()
     {
+    	
         btnLogin.submit();
     }
 

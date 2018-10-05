@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.microsoft.automation.TestLogin" duration-ms="16219" started-at="2018-09-26T11:28:53Z" finished-at="2018-09-26T11:29:09Z">
+  <suite name="com.microsoft.automation.TestLogin" duration-ms="25980" started-at="2018-09-27T07:04:03Z" finished-at="2018-09-27T07:04:29Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="16219" started-at="2018-09-26T11:28:53Z" finished-at="2018-09-26T11:29:09Z">
+    <test name="Command line test" duration-ms="25980" started-at="2018-09-27T07:04:03Z" finished-at="2018-09-27T07:04:29Z">
       <class name="com.microsoft.automation.TestLogin">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="BeforeTest" is-config="true" duration-ms="13591" started-at="2018-09-26T16:58:53Z" finished-at="2018-09-26T16:59:06Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="BeforeTest" is-config="true" duration-ms="22119" started-at="2018-09-27T12:34:03Z" finished-at="2018-09-27T12:34:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="LoginTest" duration-ms="1369" started-at="2018-09-26T16:59:06Z" finished-at="2018-09-26T16:59:08Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="LoginTest" duration-ms="3021" started-at="2018-09-27T12:34:25Z" finished-at="2018-09-27T12:34:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="AfterTest" is-config="true" duration-ms="1244" started-at="2018-09-26T16:59:08Z" finished-at="2018-09-26T16:59:09Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.microsoft.automation.TestLogin@6442b0a6]" name="AfterTest" is-config="true" duration-ms="825" started-at="2018-09-27T12:34:28Z" finished-at="2018-09-27T12:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->

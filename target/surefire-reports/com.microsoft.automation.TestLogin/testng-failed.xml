@@ -5,7 +5,6 @@
     <classes>
       <class name="com.microsoft.automation.TestLogin">
         <methods>
-          <include name="AfterTest"/>
           <include name="BeforeTest"/>
           <include name="LoginTest"/>
         </methods>

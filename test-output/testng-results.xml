@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11340" started-at="2018-09-26T10:19:11Z" finished-at="2018-09-26T10:19:22Z">
+  <suite name="Default suite" duration-ms="28526" started-at="2018-10-04T13:18:46Z" finished-at="2018-10-04T13:19:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11340" started-at="2018-09-26T10:19:11Z" finished-at="2018-09-26T10:19:22Z">
+    <test name="Default test" duration-ms="28526" started-at="2018-10-04T13:18:46Z" finished-at="2018-10-04T13:19:14Z">
       <class name="com.microsoft.automation.TestLogin">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.microsoft.automation.TestLogin@794cb805]" name="BeforeTest" is-config="true" duration-ms="9193" started-at="2018-09-26T15:49:11Z" finished-at="2018-09-26T15:49:20Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.microsoft.automation.TestLogin@36d4b5c]" name="BeforeTest" is-config="true" duration-ms="25877" started-at="2018-10-04T18:48:46Z" finished-at="2018-10-04T18:49:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.microsoft.automation.TestLogin@794cb805]" name="LoginTest" duration-ms="1433" started-at="2018-09-26T15:49:20Z" finished-at="2018-09-26T15:49:22Z">
+        <test-method status="PASS" signature="TestDD()[pri:0, instance:com.microsoft.automation.TestLogin@36d4b5c]" name="TestDD" duration-ms="1388" started-at="2018-10-04T18:49:12Z" finished-at="2018-10-04T18:49:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.microsoft.automation.TestLogin@794cb805]" name="AfterTest" is-config="true" duration-ms="692" started-at="2018-09-26T15:49:22Z" finished-at="2018-09-26T15:49:22Z">
+        </test-method> <!-- TestDD -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.microsoft.automation.TestLogin@36d4b5c]" name="AfterTest" is-config="true" duration-ms="1243" started-at="2018-10-04T18:49:13Z" finished-at="2018-10-04T18:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
